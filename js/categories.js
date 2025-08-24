@@ -94,6 +94,15 @@ document.addEventListener("DOMContentLoaded", function(e){
             showCategoriesList()
             //sortAndShowCategories(ORDER_ASC_BY_NAME, resultObj.data);
         }
+        //tampoco dejo entrar si no está logueado
+        let data = localStorage.getItem("usuario");
+    if (data === null) {
+        data = sessionStorage.getItem("usuario");
+        if (data === null) {
+            window.location.href = "login.html";
+        }
+    }
+        
     });
 
     document.getElementById("sortAsc").addEventListener("click", function(){

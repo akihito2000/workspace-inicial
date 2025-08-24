@@ -1,0 +1,49 @@
+.buscador button {
+      background-color: rgb(224, 169, 68);
+      border: none;
+      border-radius: 50%;
+      padding: 8px;
+      cursor: pointer;
+    }
+    .buscador {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+      width: 100%;
+      
+    }
+
+    .buscador input {
+      padding: 5px 10px;
+      border-radius: 100px;
+      border: 1px solid #aaa;
+      width: 300px;
+      font-size: 16px;
+      background-color:  rgb(224, 169, 68);
+      width: 900px;
+      align-items: center;
+    }
+
+    .encabezado {
+
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      border-bottom: 1px solid  rgb(224, 169, 68);
+    }
+
+
+    .titulo {
+      background-color: orange;
+    }
+
+
+   img{
+    width: 20cm ;
+    height: 10cm;
+    text-align:left;
+    display:flex;
+   }
+        
